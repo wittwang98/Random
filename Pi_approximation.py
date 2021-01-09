@@ -1,11 +1,12 @@
 import random
 from time import time
 print("Input number of points to approximate Pi\n")
-start = time()
 points = int(input())
 
 inside = 0
 percentage = 0
+
+start = time()
 
 for a in range(points):
     b = (random.random(), random.random())
